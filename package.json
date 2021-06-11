@@ -24,8 +24,7 @@
       "node"
     ],
     "globals": {
-      "ts-jest": {
-      }
+      "ts-jest": {}
     }
   },
   "husky": {
