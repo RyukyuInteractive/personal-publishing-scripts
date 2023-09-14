@@ -19,7 +19,7 @@
                     var m = ref[1]; if ( m === void 0 ) m = 0;
                     var s = ref[2]; if ( s === void 0 ) s = 0;
 
-                    return h * Math.pow( 60, 2 ) + m * 60 + s;
+                    return h * Math.pow( 60, 2 ) + m * 60 + s * 1;
                   },
                   0
                 ); }
