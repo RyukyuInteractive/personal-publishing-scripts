@@ -28,7 +28,7 @@
           ].reduce(
             function (_, v) { return Math.floor(v / Math.pow( 60, 2 )) +
               ":" +
-              ("0" + (v % Math.pow( 60, 2 )) / 60).slice(-2) +
+              ("0" + Math.floor((v % Math.pow(60, 2)) / 60)).slice(-2) +
               ":" +
               ("0" + ((v % Math.pow( 60, 2 )) % 60)).slice(-2); },
             0
